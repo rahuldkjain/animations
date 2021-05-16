@@ -1,3 +1,5 @@
-module.exports = {
-  /* config options here */
-};
+const withTM = require("next-transpile-modules")(["gsap"]);
+
+module.exports = withTM({
+  transpileModules: ["gsap"],
+});

@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import {Wrapper} from "../styles/Home.style"
+import Animations from "../components/Animations";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Wrapper className="container">
       <Head>
         <title>animations | rahuldkjain</title>
         <meta
@@ -14,15 +14,17 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon-32x32.png" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main className="main">
+        <h1 className="title">
           <a href="https://rahuldkjain.github.io">rahuldkjain</a>
         </h1>
-
-        <p className={styles.description}>welcome to handcrafted animations</p>
+        <p className="description">welcome to handcrafted animations</p>
       </main>
+      <section className="mediaContainer">
+        <Animations />
+      </section>
 
-      {/* <footer className={styles.footer}></footer> */}
-    </div>
+      {/* <footer className="footer"></footer> */}
+    </Wrapper>
   );
 }
