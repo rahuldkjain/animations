@@ -3,24 +3,36 @@ import gsap from "gsap";
 import { Container } from "./style";
 const Component = () => {
   useEffect(() => {
-    var tl = new gsap.timeline({repeat: -1});
+    var tl = new gsap.timeline({ repeat: -1 });
     tl.add("one");
     var paths = document.getElementsByClassName("building-path");
-    for (var i = 0; i < paths.length; i++) {
-      var path = paths[i];
-      path.style.strokeDasharray = path.getTotalLength();
-      path.style.strokeDashoffset = path.getTotalLength();
-      tl.set(path, {
-        visibility: "visible",
-        delay: 0.9,
-      }, "one");
-      tl.to(path, {
-        strokeDashoffset: 0,
-        duration: 11,
-        delay: 1,
-      }, "one");
+    if (paths) {
+      for (var i = 0; i < paths.length; i++) {
+        if (paths[i]) {
+          var path = paths[i];
+          path.style.strokeDasharray = path.getTotalLength();
+          path.style.strokeDashoffset = path.getTotalLength();
+          tl.set(
+            path,
+            {
+              visibility: "visible",
+              delay: 0.9,
+            },
+            "one"
+          );
+          tl.to(
+            path,
+            {
+              strokeDashoffset: 0,
+              duration: 11,
+              delay: 1,
+            },
+            "one"
+          );
+        }
+      }
     }
-    tl.timeline(1.5);
+    tl.timeScale(1.5);
   }, []);
   return (
     <Container>
