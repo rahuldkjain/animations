@@ -10,20 +10,28 @@ const Latoco = dynamic(() => import("../Latoco"));
 const Ellowww = dynamic(() => import("../Ellowww"));
 const Marcustr = dynamic(() => import("../Marcustr"));
 const Peacefm = dynamic(() => import("../Peacefm"));
+const RolandKurmann = dynamic(() => import("../RolandKurmann"));
+const SachinBuilding = dynamic(() => import("../SachinBuilding"));
+const Unloved = dynamic(() => import("../Unloved"));
+const Zozoom = dynamic(() => import("../Zozoom"));
 
 const Animations = () => {
   return (
     <AnimationsWrapper>
-      <CohnRacers />
-      <DkissEor />
-      <Flower />
+      <Unloved />
+      <RolandKurmann />
+      <Peacefm />
+      <SachinBuilding />
+      <Zozoom />
       <Funkii18 />
-      <HenryLeeson />
-      <JordanCuadrado />
       <Latoco />
       <Ellowww />
+      <CohnRacers />
+      <DkissEor />
       <Marcustr />
-      <Peacefm />
+      <HenryLeeson />
+      <JordanCuadrado />
+      <Flower />
     </AnimationsWrapper>
   );
 };

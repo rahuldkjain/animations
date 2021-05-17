@@ -1,21 +1,24 @@
 import styled from "styled-components";
 export const Container = styled.div`
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   .svg-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 95vh;
-    overflow: hidden;
   }
-  .upper_text,
-  .lower_text,
-  #orange_background,
-  #green_background {
+  #building-svg {
+    width: 70%;
+    height: 70%;
+    opacity: 0.5;
+  }
+
+  path {
     visibility: hidden;
   }
 `;
