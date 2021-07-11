@@ -11,6 +11,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 500px;
+    min-height: 400px;
   }
   #peacefm-logo {
     width: 80%;

@@ -4,8 +4,9 @@ export const Container = styled.div`
   padding: 10px;
   width: auto;
   .svg-container {
-    height: auto;
+    height: 100%;
     width: 100%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

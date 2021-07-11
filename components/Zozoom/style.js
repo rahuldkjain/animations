@@ -12,6 +12,7 @@ export const Container = styled.div`
     align-items: center;
     height: 100%;
     margin-left: 10%;
+    min-height: 400px;
   }
   #zozoom-svg {
     width: 80%;

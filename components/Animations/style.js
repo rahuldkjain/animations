@@ -16,6 +16,7 @@ export const AnimationContainer = styled.section`
   position: relative;
   width: 100%;
   height: 100%;
+  min-height: 400px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;

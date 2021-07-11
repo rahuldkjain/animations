@@ -9,6 +9,7 @@ export const Container = styled.div`
     background-color: black;
     height: 600px;
     width: 100%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

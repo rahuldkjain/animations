@@ -9,6 +9,8 @@ export const Container = styled.div`
   border-radius: 4px;
   .svg-container {
     width: 100%;
+    height: 100%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
