@@ -120,20 +120,20 @@ const Animations = () => {
 
       <AnimationContainer>
         <Dennisarct />
-        <SizeBanner size={76} />
+        <SizeBanner size={173} />
       </AnimationContainer>
 
       <FlexContainer>
         <FlexItem>
           <AnimationContainer margin="0">
             <Webmento />
-            <SizeBanner size={64} />
+            <SizeBanner size={114} />
           </AnimationContainer>
         </FlexItem>
         <FlexItem>
           <AnimationContainer margin="0">
             <Jadet7 />
-            <SizeBanner size={67} />
+            <SizeBanner size={71} />
           </AnimationContainer>
         </FlexItem>
       </FlexContainer>
