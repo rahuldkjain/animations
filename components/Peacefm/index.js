@@ -18,7 +18,7 @@ const Component = () => {
     main.fromTo(
       ".upper_text",
       {
-        y: 950,
+        y: 1200,
       },
       {
         y: 0,
@@ -109,6 +109,7 @@ const Component = () => {
           width="900"
           height="900"
           viewBox="0 0 1379.239 550"
+          id="peacefm-logo"
         >
           <g id="peacefm" transform="translate(-271 -315)">
             <path

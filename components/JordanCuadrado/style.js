@@ -4,11 +4,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
   .svg-container {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 4px;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,24 +1,19 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
   height: 100%;
+  overflow: hidden;
   .svg-container {
-    background-color: black;
-    height: 600px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #funkii-svg {
-    width: 80%;
+  #animation-svg {
+    width: 100%;
     height: 100%;
   }
-  #du {
-    fill: black;
-    z-index: 99999;
+  #pills {
+    transform: scale(0.7);
   }
 `;

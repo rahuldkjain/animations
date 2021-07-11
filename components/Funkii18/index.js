@@ -25,7 +25,7 @@ const Component = () => {
       tl.to(
         "#du",
         {
-          autoAlpha: 0,
+          autoAlpha: 1,
         },
         "6.5"
       );
@@ -49,7 +49,7 @@ const Component = () => {
       return tl;
     };
 
-    var majorTimeline = new gsap.timeline({repeat: -1, repeatDelay: 1});
+    var majorTimeline = new gsap.timeline({ repeat: -1, repeatDelay: 1 });
     majorTimeline.add("start");
     majorTimeline.add(moveWhite, "start");
     majorTimeline.add(moveRed, "start");

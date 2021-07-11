@@ -42,7 +42,7 @@ const Component = () => {
       var tl = new gsap.timeline();
       tl.set(id, {
         visibility: "visible",
-        opacity: 0,
+        opacity: 1,
         transformOrigin: "center",
       });
       tl.fromTo(
@@ -205,7 +205,7 @@ const Component = () => {
       return tl;
     };
 
-    var major = new gsap.timeline({ repeat: -1 });
+    var major = new gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
     major.add("one");
     major.add(AnimateLeft());
     major.add("two");

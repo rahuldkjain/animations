@@ -2,9 +2,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   overflow: hidden;
   width: 100%;
+  height: 100%;
   .svg-container {
-    height: 100vh;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +14,6 @@ export const Container = styled.div`
   svg {
     width: 100%;
     height: 100%;
-    transform: scale(0.6);
     cursor: pointer;
   }
   #logo-text path {

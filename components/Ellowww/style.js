@@ -4,6 +4,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
   #zigzag {
     stroke-dasharray: 100;
     stroke-dashoffset: 100;

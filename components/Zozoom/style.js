@@ -5,23 +5,19 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
-  padding: 50px 0;
+  height: 100%;
   .svg-container {
-    /* height: 100%;
-    width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px 0; */
+    height: 100%;
+    margin-left: 10%;
   }
   #zozoom-svg {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    transform: translateX(10px) translateY(50px);
   }
-  /* #svg-content {
-    transform: translateY(70px);
-  } */
 
   #yellow-shade,
   #brown-patches,
